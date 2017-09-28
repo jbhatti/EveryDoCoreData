@@ -7,9 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "ToDoObject+CoreDataClass.h"
 
 @interface AppDelegate ()
-
+@property (nonatomic, strong) NSManagedObjectContext *context;
 @end
 
 @implementation AppDelegate
